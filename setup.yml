@@ -2,6 +2,6 @@
    hosts: local
    become: no
    tasks:
-   - name: example task
-     debug:
-       msg: "hello world"
+    - name: example task
+      debug:
+        msg: "hello world"
